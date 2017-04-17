@@ -5,13 +5,14 @@ version: 0.1.1
 keywords:
   - kafka
   - zookeeper
-  - kafka petset
+  - kafka statefulset
 home: https://kafka.apache.org/
 sources:
   - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
-  - https://github.com/Yolean/kubernetes-kafka
-  - https://github.com/solsson/dockerfiles/tree/master/kafka
+  - https://github.com/kubernetes/contrib/tree/master/statefulset/kafka
 maintainers:
+  - name: Kenneth Owens
+    email: owensk@google.com
   - name: Faraaz Khan
     email: faraaz@rationalizeit.us
 icon: https://kafka.apache.org/images/logo.png

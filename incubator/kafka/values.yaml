@@ -8,6 +8,7 @@ ContainerPort: 9093
 LogLevel: INFO
 Heap: 512M
 ServerPort: 9093
+MinAvailable: "66%"
 TerminationGracePeriodSeconds: 300
 AutoCreateTopicsEnable: "true"
 AutoLeaderRebalanceEnable: "true"
